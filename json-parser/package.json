@@ -1,0 +1,19 @@
+{
+      "name": "json-parser",
+      "version": "1.0.0",
+      "type": "module",
+      "main": "src/index.js",
+      "exports": {
+        ".": "./src/index.js"
+      },
+      "bin": {
+        "parse": "./bin/cli.js"
+      },
+      "scripts": {
+        "test": "node tests/run-tests.js"
+      },
+      "keywords": ["json", "parser", "lexer", "cli"],
+      "author": "Bekhruzbek Mirzaliev",
+      "license": "MIT"
+    }
+    
