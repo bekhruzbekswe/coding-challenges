@@ -1,6 +1,6 @@
 {
       "name": "@bekhruzbek/json-parser",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "A JSON parser built from scratch in JavaScript with tokenizer, parser, and CLI tool.",
       "type": "module",
       "main": "src/index.js",
