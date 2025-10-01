@@ -1,6 +1,7 @@
 {
-      "name": "json-parser",
+      "name": "@bekhruzbek/json-parser",
       "version": "1.0.0",
+      "description": "A JSON parser built from scratch in JavaScript with tokenizer, parser, and CLI tool.",
       "type": "module",
       "main": "src/index.js",
       "exports": {
@@ -9,11 +10,25 @@
       "bin": {
         "parse": "./bin/cli.js"
       },
+      "files": [
+        "src",
+        "bin",
+        "tests",
+        "README.md"
+      ],
       "scripts": {
         "test": "node tests/run-tests.js"
       },
-      "keywords": ["json", "parser", "lexer", "cli"],
+      "keywords": ["json", "parser", "lexer", "cli", "coding-challenges"],
       "author": "Bekhruzbek Mirzaliev",
-      "license": "MIT"
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/bekhruzbekswe/coding-challenges/tree/main/json-parser"
+      },
+      "bugs": {
+        "url": "https://github.com/bekhruzbekswe/coding-challenges/tree/main/json-parser/issues"
+      },
+      "homepage": "https://github.com/bekhruzbekswe/coding-challenges/tree/main/json-parser#readme"
     }
     
