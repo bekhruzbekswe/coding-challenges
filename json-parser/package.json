@@ -8,7 +8,7 @@
         ".": "./src/index.js"
       },
       "bin": {
-        "parse": "./bin/cli.js"
+        "json-parse": "./bin/cli.js"
       },
       "files": [
         "src",
